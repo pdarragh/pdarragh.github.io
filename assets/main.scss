@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+hr {
+  margin-bottom: 15px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: inside;
+
+  .link-span {
+    position: relative;
+    left: -1em;
+  }
+
+  > li {
+    margin-bottom: $spacing-unit / 2;
+  }
+}
