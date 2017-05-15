@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+no-nav: true
 ---
 
 This is the base of operations for my new writing endeavor! Feel free to poke around, but I imagine overall that this
