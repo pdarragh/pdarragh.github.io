@@ -32,6 +32,9 @@ exclude:
   - Gemfile.lock
 permalink: /blog/:categories/:year/:month/:day/:title/
 
-# Theme-specific
+# Other settings
 minima:
   date_format: "%b %e, %Y at %I:%M%P"
+disqus:
+  shortname: pdarragh
+google_analytics: UA-99177722-1
