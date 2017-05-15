@@ -19,7 +19,7 @@ description: >
   Yet another development blog where you can read the rambling, unnecessary
   thoughts of a cloutless CS student.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pdarragh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: pdarragh
 
 # Build settings
