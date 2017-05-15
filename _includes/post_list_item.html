@@ -1,0 +1,10 @@
+{% if include.post %}
+<li>
+    <span class="link-span">
+        <a href="{{ include.post.url | relative_url }}">
+            {{ include.post.title | escape }}
+            <span class="post-meta">&mdash; {{ include.post.date | date: site.minima.date_format }}
+            </span>
+        </a>
+    </span>
+{% endif %}
