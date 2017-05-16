@@ -21,3 +21,25 @@ hr {
     margin-bottom: $spacing-unit / 2;
   }
 }
+
+.post-navigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+
+  span {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 0;
+  }
+
+  //.post-navigation-heading {
+  //  text-align: center;
+  //}
+
+  .post-next {
+    text-align: right;
+  }
+}
