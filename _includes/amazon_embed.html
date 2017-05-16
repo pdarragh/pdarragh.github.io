@@ -1,0 +1,13 @@
+{% if include.float %}
+    {% capture style %} style="float: {{ include.float }};"{% endcapture %}
+{% endif %}
+
+{% if include.height %}
+    {% assign height=include.height %}
+{% else %}
+    {% assign height="250px" %}
+{% endif %}
+
+<div class="amazon-embed"{{ style }}>
+    <iframe type="text/html" height="{{ height }}" frameborder="0" allowfullscreen style="max-width:100%" src="{{ include.source }}" ></iframe>
+</div>

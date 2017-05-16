@@ -35,11 +35,13 @@ hr {
     margin: 0;
   }
 
-  //.post-navigation-heading {
-  //  text-align: center;
-  //}
-
   .post-next {
     text-align: right;
   }
+}
+
+.amazon-embed {
+  display: block;
+  float: right;
+  margin: 1em;
 }

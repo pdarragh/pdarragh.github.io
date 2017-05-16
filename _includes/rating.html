@@ -1,0 +1,26 @@
+{% if include.max %}
+    {% assign max = include.max %}
+{% else %}
+    {% assign max = 5 %}
+{% endif %}
+
+{% if include.rating > max %}
+    {% assign rating = max %}
+{% else %}
+    {% assign rating = include.rating %}
+{% endif %}
+
+{% capture stars %}{% endcapture %}
+
+{% for i in (1..rating) %}
+    {% capture stars %}{{ stars }}<span>★</span>{% endcapture %}
+{% endfor %}
+
+{% assign next = rating | plus: 1 %}
+{% for i in (next..max) %}
+    {% capture stars %}{{ stars }}<span>☆</span>{% endcapture %}
+{% endfor %}
+
+<div class="rating">
+    {{ stars }}
+</div>
