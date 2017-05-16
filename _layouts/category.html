@@ -1,0 +1,9 @@
+---
+layout: page
+---
+
+<div class="blog list">
+    <h1>Posts in Category <small>#{{ page.tag }}</small></h1>
+
+    {% include post_list.html category=page.tag %}
+</div>

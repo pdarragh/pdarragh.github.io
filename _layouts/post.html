@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                {{ page.date | date: date_format }}
+            </time>
+            {% if page.author %}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+            {% endif %}
+        </p>
+        {% if page.categories %}
+        <p class="post-meta">
+            {% if page.categories.size == 1 %}
+                Category:
+            {% else %}
+                Categories:
+            {% endif %}
+            {% for category in page.categories %}
+                {% assign category_link='' %}
+                {% for tag in site.category %}
+                    {% if category == tag.tag %}
+                        {% capture category_link %}<a class="" href="{{ tag.permalink }}">{{ category }}</a>{% endcapture %}
+                    {% endif %}
+                {% endfor %}
+                {% if category_link %}
+                    {% if forloop.first %}
+                        {{ category_link }}
+                    {% else %}
+                        • {{ category_link }}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </p>
+        {% endif %}
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+    {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+    {% endif %}
+</article>

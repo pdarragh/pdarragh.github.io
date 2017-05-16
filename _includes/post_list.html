@@ -1,5 +1,10 @@
 <ul class="post-list">
-    {% for post in site.posts %}
+    {% if include.category %}
+        {% assign post_list=site.categories[include.category] %}
+    {% else %}
+        {% assign post_list=site.posts %}
+    {% endif %}
+    {% for post in post_list %}
         {% include post_list_item.html post=post %}
     {% endfor %}
 </ul>
