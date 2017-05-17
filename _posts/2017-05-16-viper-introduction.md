@@ -51,7 +51,10 @@ The first step was to decide on some syntax. There are more examples on
 [the project wiki](https://github.com/pdarragh/Viper/wiki/Examples), but below are a few samples to get an idea of what
 I'm after.
 
-#### Python-like syntax with static, non-inferred types
+### Python-like syntax with static, non-inferred types
+
+Overall I like the *feel* of Python, so I wanted to keep Viper very similar in some respects. However, I wanted a
+language where the programmer must specify all types.
 
 {% highlight viper linenos %}
 def fib(n: Int) -> Int:
@@ -60,7 +63,11 @@ def fib(n: Int) -> Int:
     return fib(n - 1) + fib(n - 2)
 {% endhighlight %}
 
-#### Support for algebraic data types
+### Support for algebraic data types
+
+I use Haskell semi-regularly, and I really enjoy ADTs. Sometimes I don't want to get bogged down with all of the details
+of implementing a full class; I just want a simple way to describe the shape of some data. I want ADTs in Viper, but I
+also intend to support pattern matching against them.
 
 {% highlight viper linenos %}
 data Tree(a):
@@ -68,7 +75,11 @@ data Tree(a):
     Branch (Tree a) (Tree a)
 {% endhighlight %}
 
-#### OOP-style interfaces and inheritance
+### OOP-style interfaces and inheritance
+
+Sometimes, OOP methodologies make more sense to me intuitively. I wanted to support these as well as ADTs. Scala is an
+example of a language which uses both to good effect, so I know it's not inconceivable to have both features in the
+language.
 
 {% highlight viper linenos %}
 interface Shape:
