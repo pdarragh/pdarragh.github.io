@@ -8,6 +8,30 @@ hr {
   margin-bottom: 15px;
 }
 
+table {
+  color:#666666;
+  background:#eaebec;
+  margin-left: auto;
+  margin-right: auto;
+  border:#ccc 1px solid;
+  text-align: left;
+
+  th {
+    padding: 1em;
+    background: #ededed;
+    text-align: center;
+  }
+
+  td {
+    padding: 0.5em 1em;
+    background: #fafafa;
+  }
+
+  tr.even td {
+    background: #f6f6f6;
+  }
+}
+
 .post-list {
   margin-left: 0;
   list-style: inside;
