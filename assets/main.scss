@@ -11,8 +11,7 @@ hr {
 table {
   color:#666666;
   background:#eaebec;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto;
   border:#ccc 1px solid;
   text-align: left;
 
@@ -30,6 +29,11 @@ table {
   tr.even td {
     background: #f6f6f6;
   }
+}
+
+blockquote {
+  font-size: inherit;
+  letter-spacing: inherit;
 }
 
 .post-list {
