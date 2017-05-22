@@ -141,3 +141,14 @@ the first place!)
 
 I like the idea behind parsing with derivatives, though, so I'm going to try to use it for implementing Viper's parser.
 I'm sure I'll write about it plenty in the coming posts, so stay tuned!
+
+***
+
+## Update
+
+I forgot to mention some of the other things I read while I was writing this/learning about PWD. Here's a short list:
+
+* [Matt Might's blog post about PWD](http://matt.might.net/articles/parsing-with-derivatives/)
+* [Another Matt Might post about derivatives of regular expressions](http://matt.might.net/articles/implementation-of-regular-expression-matching-in-scheme-with-derivatives/)
+* [A blog post by Yehonathan Sharvit about PWD](http://blog.klipse.tech/clojure/2016/10/02/parsing-with-derivatives-regular.html)
+* [An implementation of PWD in Python by Per Vognsen](https://gist.github.com/pervognsen/815b208b86066f6d7a00)
