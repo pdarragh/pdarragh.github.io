@@ -17,8 +17,7 @@ title: Pierce Darragh
 author: Pierce Darragh
 email: pierce.darragh@gmail.com
 description: >
-  Yet another development blog where you can read the rambling, unnecessary
-  thoughts of a cloutless CS student.
+  Just a blog for helping me keep my thoughts organized.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pdarragh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: pdarragh
