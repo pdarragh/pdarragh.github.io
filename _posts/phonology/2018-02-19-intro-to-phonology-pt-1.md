@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Phonology: Part 1"
+title: "Introduction to Phonology, Part 1"
 date: 2018-02-19 13:35:00
 categories: phonology linguistics
 ---
