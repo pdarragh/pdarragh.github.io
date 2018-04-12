@@ -68,8 +68,7 @@ language usage. These are less my area of interest, but are no less noble than a
 
 ## Up next
 
-I've decided to try writing this post in multiple parts. I'll update this post here with links to the subsequent posts
-as I write them.
+Next, you'll want to read [Part 2](2018-04-11-intro-to-phonology-pt-2.md)!
 
 ## Footnotes
 
