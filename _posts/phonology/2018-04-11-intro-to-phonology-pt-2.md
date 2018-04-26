@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Introduction to Phonology, Part 2: Phonetics"
+title: "Introduction to Phonology, Part 2: Basic Phonetics"
 date: 2018-04-11 23:10:00
 categories: phonology linguistics phonetics
 ---
 
-If you're just tuning in, you'll want to read [Part 1](2018-02-19-intro-to-phonology-pt-1.md) before continuing. This
-next installment gives you an introduction to *phonetics*, which serves an important role in being able to discuss
-phonology later on.
+If you're just tuning in, you'll want to read [Part 1]({% post_url /phonology/2018-02-19-intro-to-phonology-pt-1 %})
+before continuing. This next installment gives you an introduction to *phonetics*, which serves an important role in
+being able to discuss phonology later on.
 
 ## Phonetics overview
 

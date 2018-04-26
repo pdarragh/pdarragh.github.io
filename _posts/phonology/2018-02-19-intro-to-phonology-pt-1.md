@@ -46,15 +46,15 @@ its concrete applications.
 ### The uses of phonological theory
 
 Phonology is a theoretical science, not entirely unlike quantum physics. In both fields, scientists study what they
-already know about certain phenomenon and form predictions — more formally known as "hypotheses" — which they then test
-for accuracy. Sometimes it's more about developing a model that most accurately reflects the underlying truth, and
+already know about certain phenomenon and form predictions --- more formally known as "hypotheses" --- which they then
+test for accuracy. Sometimes it's more about developing a model that most accurately reflects the underlying truth, and
 sometimes it's about trying to predict the outcome of a specific type of test more accurately. In both cases, the
 scientist collects data, studies the data, forms a hypothesis, and then tests their hypothesis against the data (or new
 data, if necessary).
 
 The primary difference is that theoretical physics is interested in the underlying truths of the natural world as it
 exists outside of human interaction, whereas the phonologist is concerned with the underlying truths of human language
-— a contrived phenomenon which, it can be argued, no human truly understands in its entirety.
+--- a contrived phenomenon which, it can be argued, no human truly understands in its entirety.
 
 For some, the pursuit of these truths is enough reason to undertake the study. There is not always a clear "goal" in
 mind, nor a specific purpose. Many scientists seek primarily to gain understanding and spread this understanding to
@@ -68,7 +68,7 @@ language usage. These are less my area of interest, but are no less noble than a
 
 ## Up next
 
-Next, you'll want to read [Part 2](2018-04-11-intro-to-phonology-pt-2.md)!
+Next, you'll want to read [Part 2]({% post_url /phonology/2018-04-11-intro-to-phonology-pt-2 %})!
 
 ## Footnotes
 
