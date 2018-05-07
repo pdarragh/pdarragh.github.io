@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book Review — Forward the Foundation
-date: 2017-05-31 22:21:00
+date: 2017-05-31 22:21:00 -0600
 categories: book-reviews
 ---
 

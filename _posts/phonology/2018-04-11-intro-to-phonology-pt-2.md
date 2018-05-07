@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to Phonology, Part 2: Basic Phonetics"
-date: 2018-04-11 23:10:00
+date: 2018-04-11 23:10:00 -0600
 categories: phonology linguistics phonetics
 ---
 

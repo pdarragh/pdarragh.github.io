@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Return
-date: 2018-02-19 12:19:00
+date: 2018-02-19 12:19:00 -0600
 categories: meta
 ---
 

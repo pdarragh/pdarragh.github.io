@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oddities in Python's __new__ Method
-date: 2017-05-22 16:06:00
+date: 2017-05-22 16:06:00 -0600
 categories: python
 ---
 

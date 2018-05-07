@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lexing Viper
-date: 2017-05-17 13:31:00
+date: 2017-05-17 13:31:00 -0600
 categories: viper programming-languages lexing syntax
 ---
 

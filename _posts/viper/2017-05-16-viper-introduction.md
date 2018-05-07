@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Viper Introduction
-date: 2017-05-16 10:18:00
+date: 2017-05-16 10:18:00 -0600
 categories: viper programming-languages syntax
 ---
 

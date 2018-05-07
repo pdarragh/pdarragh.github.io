@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Parsing with Derivatives
-date: 2017-05-22 02:01:00
+date: 2017-05-22 02:01:00 -0600
 categories: viper programming-languages parsing
 ---
 

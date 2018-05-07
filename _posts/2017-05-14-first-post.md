@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Post
-date: 2017-05-14 19:08:00
+date: 2017-05-14 19:08:00 -0600
 categories: meta
 ---
 Well, I finally did it! I've started a personal blog. I don't expect many people to read it, but I intend to use it

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book Review — Prelude to Foundation
-date: 2017-05-15 23:29:00
+date: 2017-05-15 23:29:00 -0600
 categories: book-reviews
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to Phonology, Part 3: Phonetic Features"
-date: 2018-04-26 01:35:00
+date: 2018-04-26 01:35:00 -0600
 categories: phonology linguistics phonetics
 ---
 

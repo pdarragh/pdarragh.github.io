@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Update on the State of Viper"
-date: 2018-05-07 01:35:00
+date: 2018-05-07 15:19:00 -0600
 categories: viper programming-languages
 ---
 

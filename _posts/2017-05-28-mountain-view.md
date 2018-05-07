@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mountain View
-date: 2017-05-28 18:58:00
+date: 2017-05-28 18:58:00 -0600
 categories: apple internship life
 ---
 
