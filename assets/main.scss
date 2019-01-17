@@ -60,6 +60,10 @@ img {
       pre {
         margin: 0;
       }
+
+      &.gutter.gl {
+        width: 1em;
+      }
     }
   }
 }
