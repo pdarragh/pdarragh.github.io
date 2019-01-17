@@ -21,7 +21,7 @@ Python's capabilities as exactly as possible --- even if it maybe isn't the "bes
 
 Specifically, consider the following example in Python:
 
-```python
+{% highlight viper linenos %}
 class Foo:
     def __init__(self):
         self.bar = 42
@@ -29,7 +29,7 @@ class Foo:
 x = Foo()     # (1)
 x.baz = 16    # (2)
 print(x.baz)  # (3)
-```
+{% endhighlight %}
 
 At (1), a new `Foo` is initialized. This `Foo` will only have a `.bar` attribute defined (with a value of `42`). Then,
 at (2), that `Foo` is object is modified by adding a new attribute (`.baz`). In a sense, the *type* of the object has been
@@ -42,11 +42,11 @@ manage it).
 
 If we use a static type system with no inference, we would rewrite the code above as:
 
-```python
+{% highlight viper linenos %}
 x: Foo = Foo()
 x.baz: Int = 16
 print(x.baz)
-```
+{% endhighlight %}
 
 This clearly doesn't make sense, I think. We've declared `x` to be of type `Foo` *exactly*. Within the scope in which
 `x` is defined, it should only be able to be treated as a `Foo`. Since `Foo` does not define a `.baz` attribute, (3)
@@ -80,25 +80,25 @@ extension is only active (a) within the current scope and (b) for that specific 
 
 Consider the following:
 
-```python
+{% highlight viper linenos %}
 x = Foo()
 y = Foo()
 x.baz = 16
 print(x.baz)
 print(y.baz)
-```
+{% endhighlight %}
 
 This code would produce a type error, because `y` does not have an attribute `.baz` defined on it. `y` is just a
 `Foo`, whereas `x` is an `Extensible Foo` by virtue of later being modified.
 
 Now consider:
 
-```python
+{% highlight viper linenos %}
 x = Foo()
 print(x.baz)  # (1)
 x.baz = 16
 print(x.baz)  # (2)
-```
+{% endhighlight %}
 
 In this example, (1) should not be legal but (2) should. The implicit extension of `Foo` does not become active until
 the value of `x` is modified to have a `.baz` attribute. So the type system will need to be sophisticated enough to be
