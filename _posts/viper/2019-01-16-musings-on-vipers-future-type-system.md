@@ -2,6 +2,7 @@
 layout: post
 title: "Musings on Viper's Future Type System"
 date: 2019-01-16 16:25:00 -0600
+updated: 2019-01-16 19:34:00 -0600
 categories: viper programming-languages type-systems
 ---
 
@@ -21,7 +22,7 @@ Python's capabilities as exactly as possible --- even if it maybe isn't the "bes
 
 Specifically, consider the following example in Python:
 
-{% highlight viper linenos %}
+{% highlight python linenos %}
 class Foo:
     def __init__(self):
         self.bar = 42
@@ -42,7 +43,7 @@ manage it).
 
 If we use a static type system with no inference, we would rewrite the code above as:
 
-{% highlight viper linenos %}
+{% highlight python linenos %}
 x: Foo = Foo()
 x.baz: Int = 16
 print(x.baz)
@@ -80,7 +81,7 @@ extension is only active (a) within the current scope and (b) for that specific 
 
 Consider the following:
 
-{% highlight viper linenos %}
+{% highlight python linenos %}
 x = Foo()
 y = Foo()
 x.baz = 16
@@ -93,7 +94,7 @@ This code would produce a type error, because `y` does not have an attribute `.b
 
 Now consider:
 
-{% highlight viper linenos %}
+{% highlight python linenos %}
 x = Foo()
 print(x.baz)  # (1)
 x.baz = 16
@@ -113,3 +114,39 @@ to figure out how to solve it. But now I've written down my thoughts, and maybe 
 I think the most likely course of action is that I will forbid this kind of usage in the interim so I can resume work
 on Viper's implementation, but eventually I'll have to come back to it and make a final decision. There will probably
 be more blog posts on the topic between now and then, so stay tuned!
+
+## Update
+
+I've thought about this more today, and I think I've figured out how this will work.
+
+In short: the extensible type declarations will be time travelers.
+
+By that, I mean that the act of extending a type will retroactively alter the declaration of that type within the current scope.
+
+Consider again the above example:
+
+{% highlight python linenos %}
+x = Foo()     # (1)
+print(x.baz)  # (2)
+x.baz = 16    # (3)
+print(x.baz)  # (4)
+{% endhighlight %}
+
+Previously, I stated that (2) should not work. After all, how can we retrieve the value of `x.baz` when no such value
+has been initialized or even declared as a part of the `Foo` type?
+
+I think what can be done is the type-checker can determine from context of (3) that `x` is actually of type
+`Extensible Foo`[^extensible]. When attempting to evaluate (2), `x.baz` can have what essentially amounts to a `null`
+value. This is a special behind-the-scence value that users cannot create manually, and which signifies to the language
+that the given expression cannot be evaluated. Using this solution, (2) would type-check but would not run successfully.
+
+This brings up another issue, though: What's the point of having a static type system if not to detect these kinds of
+issues in advance?
+
+I think the type-checker could be extended to detect the presence of these kinds of values and throw a different kind
+of error. Yes, (2) would have a valid *type*, but it would not have a valid *value*. I'm not sure exactly how to handle
+this kind of thing (again, I'm new to type system implementation), but I think this could lead somewhere.
+
+## Footnotes
+
+[^extensible]: Specifically, the type-checker should be able to determine that `Foo` has been extended with a `.baz` attribute of type `Int`, but this detail is only glanced over here for brevity.
