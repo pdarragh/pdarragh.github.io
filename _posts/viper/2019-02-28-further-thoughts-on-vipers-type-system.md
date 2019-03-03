@@ -7,7 +7,7 @@ categories: viper programming-languages type-systems
 
 As I've resumed working my way through Pierce's *Types and Programming Languages* (which I am very much enjoying), I've
 continued to think about how Viper's type system will end up working. There are many aspects of different systems that
-I want to incorporate together to see emy vision to fruition, and I think at least some of it will be novel. (Note,
+I want to incorporate together to see my vision to fruition, and I think at least some of it will be novel. (Note,
 however, that just because an idea is novel does not mean it is necessarily *good*.)
 
 ## The basics

@@ -204,7 +204,7 @@ to implement subclasses anyway.
 Therefore, an ADT definition must be both immutable and unable to be subclassed if exhaustive pattern matching is going
 to be supported.
 
-I mentioned in [the previous post]({% post_url /viper/2019-02-28-further-thoughts-on-vipers-type-system.md %}) that I am
+I mentioned in [the previous post]({% post_url /viper/2019-02-28-further-thoughts-on-vipers-type-system %}) that I am
 already considering allowing immutability in Viper. Similarly, it might be worth adding some ability to prevent classes
 from being used as superclasses, similar to Scala's [sealed classes](https://www.scala-lang.org/old/node/123).
 
