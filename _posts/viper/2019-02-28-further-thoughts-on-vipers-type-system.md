@@ -86,7 +86,7 @@ less syntax).
 
 ## Type extensibility
 
-In [the previous post](% post_url /viper/2019-01-16-musings-on-vipers-future-type-system %}), I began to address the
+In [the previous post]({% post_url /viper/2019-01-16-musings-on-vipers-future-type-system %}), I began to address the
 problem of how Python allows objects and classes to be modified at run-time. This poses a problem for traditional static
 type systems, because either the type of an object changes at runtime (which is not usually something that is modeled)
 or the definition of a type changes at runtime (which is also not usually allowed).
