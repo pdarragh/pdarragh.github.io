@@ -3,6 +3,7 @@ layout: post
 title: "In the Land of the Blind"
 date: 2019-07-06 11:08:00 -0600
 categories: life health 
+redirect_from: "/blog/2019/07/06/the-one-eyed-man-is-king"
 ---
 
 A little under a month ago, I lost around 95% of the vision in my left eye over the course of three days. This 
