@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The One-Eyed Man is King"
+title: "In the Land of the Blind"
 date: 2019-07-06 11:08:00 -0600
 categories: life health 
 ---
