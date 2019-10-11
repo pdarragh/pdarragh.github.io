@@ -6,28 +6,61 @@ permalink: /about/
 
 Hullo!
 
-I'm a research associate at the [University of Utah](https://www.utah.edu) in the U Combinator research group, which
-focuses on programming language theory.
+I'm a "pre-doc" researcher[^pre-doc] at the
+[University of Utah](https://www.utah.edu) in the [Flux research group](https://www.flux.utah.edu).
+I work on the [Xsmith project](https://www.flux.utah.edu/project/xsmith), which
+seeks to enable developers to create random program generators ("fuzzers") for
+whatever language they like. I hold both a BS and MS in computer science from
+Utah, and am applying to PhD programs this fall.
 
-I am also a graduate of the same university, having [simultaneously graduated with my BS and MS in computer science](https://www.cs.utah.edu/bsms/)
-in the spring of 2018. I had undergraduate emphases in programming languages and natural language processing (among
-other things), and I minored in linguistics.
+My research interests lay at the intersection of programming languages,
+human-computer interaction, and computer science education. I want to work
+towards developing programming languages that empower developers of all ability
+levels, whether programming is their primary career or otherwise, and I am
+especially interested in first language acquisition (i.e., what designs make
+for a good introduction to computer science or programming).
 
-My primary interest in programming languages is language design and how that impacts a programmer's perspective, and
-I especially like to learn about type systems and how they can empower programmers. I also have experience working with
-parsing, and have spent much of my free time over the past couple of years working on my own programming language,
-[Viper](https://github.com/pdarragh/Viper), which is designed to be a Python-like language with additional features
-from other languages I like. (Development on Viper comes and goes in waves, but it's always on my mind.)
+More specifically, I find myself fascinated with types, effects, and language
+usability. I want for people to use advanced type systems and language features
+with great ease, and I want to develop solutions enabling this.
 
-Within natural language processing, I am honestly interested in most areas. I think the idea of computers being able to
-"understand" human language is incredibly intriguing, and something I am very excited about. In linguistics, my main
-interest is in phonology; the idea that humans can generate so many distinct speech sounds is absolutely fascinating!
+Prior to moving to the Flux group a few months ago, I spent just over three
+years working in the [U Combinator research group](https://www.ucombinator.org)
+under the direction of [Dr. Matt Might](http://matt.might.net) (only briefly)
+and then [Dr. Michael Adams](https://michaeldadams.org). During this time I
+worked on numerous projects, but most interesting to me was my work on my own
+programming language, [Viper](https://github.com/pdarragh/Viper). Viper is a
+language designed to be Python-like but with a static type system and other
+features I enjoy from various languages I've used. (Development on Viper comes
+and goes in waves, but it's been consistently on my mind since I started the
+project a few years ago.)
 
-I work in a research lab on-campus which is focused on programming languages and static analysis. We are currently
-working on a project designed to identify potential algorithmic complexity and side-channel attacks in compiled Java
-applications, funded by DARPA (an agency under the Department of Defence). We have also recently begun work on a new
-Java decompiler, though this work is still in the early stages. In addition, we pursue other avenues of research
-whenever they present themselves to us.
+I also have an interest in natural language processing, having minored in
+linguistics as an undergrad. However, my true love lies with programming
+languages.
 
-Outside of computer science, I enjoy reading books, watching movies, playing Magic: The Gathering, photography,
-playing guitar, eating, and otherwise enjoying the company of my friends.
+I maintain a few hobbies (listed in no particular order):
+
+- programming (of course)
+- reading (sci-fi mostly, but anything else too)
+- movies
+- podcasts
+- Magic: The Gathering (EDH/Commander, specifically)
+- Destiny 2
+- photography
+- overusing parentheses (it's a problem), em-dashes, semicolons, and commas
+- guitar (been playing for 11+ years now)
+- food
+- spending time with friends (cheesy, I know, but it's true!)
+
+Although I am demographically average in the United States (white, male, average
+height and build, straight, middle-class, etc., etc.), I am an ally for causes
+that seek to empower people through inclusion and diversity and am constantly
+trying to learn more about how other people perceive and are perceived by the
+world around them. My preferred pronouns are he/him.
+
+My last name (Darragh) is pronounced ['dɛr.ə] ("DARE-uh"), rhyming with Sarah.
+
+## Footnotes
+
+[^pre-doc]: This is not a real thing.
