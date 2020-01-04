@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On the Use of Language in Science-Fiction Literature"
-date: 2020-01-04 16:07:00 -0600
+date: 2020-01-04 16:07:00 -0700
 categories: language science-fiction literature
 ---
 
